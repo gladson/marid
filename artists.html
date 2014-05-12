@@ -7,11 +7,11 @@
     <meta name="description" content="Independent Record Label">
 
     <!-- Styles -->
-    <link rel="stylesheet" href="/assets/css/bootstrap.css">
-    <link rel="stylesheet" href="/assets/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/assets/css/header.css">
-    <link rel="stylesheet" href="/assets/css/style.css">
-    <link rel="stylesheet" href="/assets/css/syntax.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/syntax.css">
 
     <!-- Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Lato:400,300'
@@ -23,24 +23,27 @@
     <![endif]-->
 
     <!-- Favicons -->
-    <link rel="shorcut icon" href="/favicon.png">
-
+    <link rel="stylesheet" type="text/css" href="assets/css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style_common.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style1.css" /  >
+    <link rel="shorcut icon" href="favicon.png">
+    <script type="text/javascript" src="assets/js/modernizr.custom.69142.js"></script> 
   </head>
   <body>
     <div id="desktop-header" class="header visible-lg visible-md">
       <div class="container">
         <div class="title">
-          <a href="/">
+          <a href="">
             <h1>Marid</h1>
           </a>
         </div>
         <div class="navigation">
           <ul class="nav nav-pills">
-            <li><a href="/about.html">About</a></li>
-            <li><a href="/artists.html">Artists</a></li>
-            <li><a href="/media.html">Media</a></li>
-            <li><a href="/events.html">Events</a></li>
-            <li><a href="/partners.html">Partners</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="artists.html">Artists</a></li>
+            <li><a href="media.html">Media</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="partners.html">Partners</a></li>
           </ul>
         </div>
       </div>
@@ -48,23 +51,56 @@
 
     <div id="mobile-header" class="header visible-xs visible-sm">
       <div class="title">
-        <a href="/">
+        <a href="">
           <h1>Marid</h1>
         </a>
       </div>
       <div class="menu">
         <ul class="nav nav-pills">
-            <li><a href="/about.html">About</a></li>
-            <li><a href="/artists.html">Artists</a></li>
-            <li><a href="/media.html">Media</a></li>
-            <li><a href="/events.html">Events</a></li>
-            <li><a href="/partners.html">Partners</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="artists.html">Artists</a></li>
+            <li><a href="media.html">Media</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="partners.html">Partners</a></li>
         </ul>
       </div>
     </div>
 
     <div class="content">
-
+    <div id="grid" class="main">
+        <div class="view">
+          <div class="view-back">
+            <span data-icon="A">566</span>
+            <span data-icon="B">124</span>
+            <a href="#">&rarr;</a>
+          </div>
+          <img src="assets/img/w1.jpg" />
+        </div>
+        <div class="view">
+          <div class="view-back">
+            <span data-icon="A">210</span>
+            <span data-icon="B">102</span>
+            <a href="#">&rarr;</a>
+          </div>
+          <img src="assets/img/w2.jpg" />
+        </div>
+        <div class="view">
+          <div class="view-back">
+            <span data-icon="A">690</span>
+            <span data-icon="B">361</span>
+            <a href="#">&rarr;</a>
+          </div>
+          <img src="assets/img/w3.jpg" />
+        </div>
+        <div class="view">
+          <div class="view-back">
+            <span data-icon="A">987</span>
+            <span data-icon="B">130</span>
+            <a href="#">&rarr;</a>
+          </div>
+          <img src="assets/img/w4.jpg" />
+        </div>
+      </div>
     </div>
 
     <div id="footer">
@@ -74,15 +110,15 @@
           <div class="col-lg-6">
             <div id="social">
               <a href="#">
-                <img src="/assets/img/rss.png"></a>
+                <img src="assets/img/rss.png"></a>
               <a href="http://twitter.com/maridco">
-                <img src="/assets/img/twitter.png"/></a>
+                <img src="assets/img/twitter.png"/></a>
               <a href="http://github.com/maridco">
-                <img src="/assets/img/github.png"/></a>
+                <img src="assets/img/github.png"/></a>
               <a href="http://www.linkedin.com/in/company/marid">
-                <img src="/assets/img/linkedin.png"/></a>
+                <img src="assets/img/linkedin.png"/></a>
               <a href="mailto:info@marid.co">
-                <img src="/assets/img/email.png"/></a>
+                <img src="assets/img/email.png"/></a>
             </div>
           </div>
           <div class="col-lg-6">
@@ -93,8 +129,23 @@
         </div>
       </div>
     </div>
-    <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
-    <script src="/assets/js/libs/bootstrap.js"></script>
+    <script type="text/javascript"> 
+      
+      Modernizr.load({
+        test: Modernizr.csstransforms3d && Modernizr.csstransitions,
+        yep : ['http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js','assets/js/jquery.hoverfold.js'],
+        nope: 'assets/css/fallback.css',
+        callback : function( url, result, key ) {
+            
+          if( url === 'assets/js/jquery.hoverfold.js' ) {
+        $( '#grid' ).hoverfold();
+          }
+
+        }
+      });
+        
+    </script>
+    <script src="assets/js/libs/bootstrap.js"></script>
   </body>
 </html>
 
