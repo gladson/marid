@@ -39,6 +39,7 @@ p.description {
   padding: 10px;
   margin-bottom: 20px;
   text-transform: uppercase;
+  z-index: 1030;
 }
 
 .header a {
