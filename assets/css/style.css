@@ -39,11 +39,10 @@ p.description {
   padding: 10px;
   margin-bottom: 20px;
   text-transform: uppercase;
-  z-index: 1030;
 }
 
 .header a {
-  color: #666666;
+  color: #52728F;
   text-decoration: none;
 }
 
@@ -62,7 +61,7 @@ p.description {
 #desktop-header {
   position: fixed;
   width: 100%;
-  background: #76d6ff;
+  background: #94CEF0;
 }
 
 #desktop-header .title {
@@ -81,7 +80,7 @@ p.description {
   padding: 10px;
   margin-bottom: 20px;
   text-align: center;
-  background: #76d6ff;
+  background: #94CEF0;
 }
 
 #mobile-header hr {
