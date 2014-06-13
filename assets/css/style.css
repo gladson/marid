@@ -4,7 +4,7 @@
 
 body {
   min-height: 100%;
-  background-color: #f8f8f8;
+  background-color: #ffffff;
   font-family: "Lato", sans-serif;
   font-weight: 300;
 }
@@ -35,7 +35,7 @@ p.description {
 **********/
 
 .header {
-  background-color: #f4f4f4;
+  background-color: #ffffff;
   padding: 10px;
   margin-bottom: 20px;
   text-transform: uppercase;
