@@ -19,3 +19,9 @@ Found a bug? Report it [here](https://github.com/maridco/marid/issues/)!
 ## Feature Request
 
 Have an idea? Add it [here](https://github.com/maridco/marid/issues/)!
+
+## Contact
+
+Twitter: `@maridco`
+
+## License
