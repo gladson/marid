@@ -1,0 +1,48 @@
+html,
+.uk-navbar-nav > li > a {
+  font-size: 17px;
+}
+
+.uk-navbar,
+.uk-navbar-nav,
+.uk-navbar-nav > li > a {
+  height: 45px;
+}
+
+.uk-navbar-toggle,
+.uk-navbar-nav > li > a {
+  line-height: 45px;
+}
+
+.uk-navbar-toggle {
+  font-size: 22.5px;
+}
+
+.uk-navbar-brand {
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+@media (min-width: 767px) {
+  .uk-navbar-brand {
+    padding-left: 0;
+  }
+}
+  
+.uk-navbar-brand > img {
+  height: 39px !important;
+}
+
+.uk-subnav-pill > li > a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 25px;
+}
+
+.uk-search-field {
+  background-color: rgba(0,0,0,.1)
+}
+
+.uk-search:before {
+  color: #999;
+}
