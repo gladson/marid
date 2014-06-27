@@ -1,4 +1,4 @@
-![Marid](https://raw.githubusercontent.com/maridco/marid/master/prototype/img/marid-color-xlarge.jpg)
+![Marid](https://raw.githubusercontent.com/maridco/marid/master/img/marid-color-xlarge.jpg)
 
 ## Independent Music Platform
 
