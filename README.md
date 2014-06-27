@@ -25,3 +25,5 @@ Have an idea? Add it [here](https://github.com/maridco/marid/issues/)!
 Twitter: `@maridco`
 
 ## License
+
+Copyright 2014 Marid
