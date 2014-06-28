@@ -27,3 +27,6 @@ Twitter: `@maridco`
 ## License
 
 Copyright 2014 Marid
+
+##### Marid is released under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
+The full license text is included in `LICENSE.txt`.
