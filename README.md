@@ -4,6 +4,14 @@
 
 For more information, please see http://marid.co
 
+## Authors
+
+* Nathan Bernard 
+* Zlatan Vasović
+* Santosh Kumar
+
+A full list of [contributors](https://github.com/maridco/marid/graphs/contributors) can be found on GitHub.
+
 ## Contributing
 
 1. [Fork it](https://help.github.com/articles/fork-a-repo)
