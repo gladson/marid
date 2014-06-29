@@ -6,9 +6,9 @@ For more information, please see http://marid.co
 
 ## Authors
 
-* Nathan Bernard 
-* Zlatan Vasović
-* Santosh Kumar
+* Nathan Bernard: `nbernard[at]openfaux[dot]org`
+* Zlatan Vasović: `legospace9876[at]gmail[dot]com`
+* Santosh Kumar: `san00718[at]gmail[dot]com`
 
 A full list of [contributors](https://github.com/maridco/marid/graphs/contributors) can be found on GitHub.
 
