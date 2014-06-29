@@ -1,0 +1,11 @@
+Main Authors
+============
+
+Nathan Bernard (@nb333) <nbernard[at]openfaux[dot]org>
+Zlatan Vasović (@ZDroid) <legospace9876[at]gmail[dot]com>
+Santosh Kumar (@sant0sh) <san00718[at]gmail[dot]com>
+
+Code Contributors
+=================
+
+Note: (@user) means a github user name.
