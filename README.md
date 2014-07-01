@@ -6,7 +6,7 @@ For more information, please see http://marid.co
 
 ## Authors
 
-[![Nathan Bernard](https://s.gravatar.com/avatar/764276fb0de2fba228d1a906efdcae45?s=125)](https://github.com/nb333) | [![Zlatan Vasović](https://s.gravatar.com/avatar/c99c9cf9673c30920a0f58f776101a26?s=125)](https://github.com/zdroid) | [![Santosh Kumar](https://s.gravatar.com/avatar/6bae48e2decd6c161c45727ab09cd5ae?s=125)](https://github.com/sant0sh) |
+[![Nathan Bernard](https://s.gravatar.com/avatar/764276fb0de2fba228d1a906efdcae45?s=117)](https://github.com/nb333) | [![Zlatan Vasović](https://s.gravatar.com/avatar/c99c9cf9673c30920a0f58f776101a26?s=117)](https://github.com/zdroid) | [![Santosh Kumar](https://s.gravatar.com/avatar/6bae48e2decd6c161c45727ab09cd5ae?s=117)](https://github.com/sant0sh) |
 :---:|:---:|:---:
 [Nathan Bernard](https://github.com/nb333) | [Zlatan Vasović](https://github.com/zdroid) | [Santosh Kumar](https://github.com/sant0sh)
 
