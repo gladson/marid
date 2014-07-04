@@ -2,6 +2,8 @@
 
 ## Independent Music Platform
 
+Marid is a music platform that beautifully showcases the works of independent artists.
+
 For more information, please see http://marid.co
 
 ## Authors
