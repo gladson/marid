@@ -32,7 +32,8 @@ Have an idea? Add it [here](https://github.com/maridco/marid/issues/)!
 
 ## Contact
 
-Twitter: `@maridco`
+* Twitter: `@maridco`
+* IRC: `#marid` on irc.freenode.net
 
 ## License
 
